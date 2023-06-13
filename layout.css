@@ -1,0 +1,25 @@
+/**** regler for mobil-layout *****/
+body {
+  padding: 10%;
+}
+
+div {
+  text-align: center;
+}
+
+h1,
+h4,
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nana {
+  position: absolute;
+  top: 60%;
+  left: 31%;
+}

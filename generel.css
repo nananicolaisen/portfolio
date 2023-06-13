@@ -1,0 +1,84 @@
+body {
+  background-color: #eef1f4c0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(24, 24, 26);
+  padding: 20px;
+  margin: auto;
+}
+p,
+h3 {
+  font-family: "Inter", sans-serif;
+  color: rgb(57, 60, 57);
+  margin: auto;
+  padding: 20px;
+}
+
+dl {
+  font-family: "Inter", sans-serif;
+}
+
+dd {
+  font-family: "Inter", sans-serif;
+  padding: 4px;
+}
+
+dt {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(245, 243, 241);
+}
+header .logo a {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #070708;
+}
+
+.burger-menu-icon {
+  display: none; /* Skjul burgermenu-ikonet som standard */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header {
+    position: sticky;
+  }
+  .burger-menu-icon {
+    display: block; /* Vis burgermenu-ikonet på mindre skærme */
+  }
+}

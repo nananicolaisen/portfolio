@@ -10,13 +10,8 @@
     padding: 0;
     box-sizing: border-box;
   }
-  div {
-    text-align: center;
-  }
 
-  h1,
-  h4,
-  p {
+  h1 {
     text-align: center;
   }
 
@@ -36,7 +31,7 @@
 @media only screen and (min-width: 769px) {
   img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
     display: block;
   }
   * {
@@ -49,12 +44,10 @@
   }
 
   div {
-    text-align: center;
+    text-align: left;
   }
 
-  h1,
-  h4,
-  p {
+  h1 {
     text-align: center;
   }
 
@@ -85,11 +78,31 @@
   .tema5 {
     display: grid;
     grid-template-columns: 5fr 5fr 5fr;
+    grid-row: 3fr 3fr 3fr;
     gap: 5rem;
   }
 
+  .t2,
+  .t4 {
+    border: 2px solid #0001b3; /* Stregstørrelse og farve for rammen */
+    border-radius: 10px; /* Afrundede hjørner på rammen */
+    padding: 10px;
+  }
+
+  .t3,
+  .t5 {
+    border: 2px solid #ffd722; /* Stregstørrelse og farve for rammen */
+    border-radius: 10px; /* Afrundede hjørner på rammen */
+    padding: 10px;
+  }
+
   .b8 {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    right: 70%;
+  }
+
+  img {
+    width: 100%; /* Sæt bredden til 100% af forælderens bredde */
+    height: auto; /* Bevar billedets proportioner */
   }
 }

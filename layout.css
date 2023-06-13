@@ -77,7 +77,7 @@
     grid-row: 3/4;
   }
 
-  /******Porfolio*********/
+  /******Portfolio*********/
 
   .tema2,
   .tema3,
@@ -85,6 +85,11 @@
   .tema5 {
     display: grid;
     grid-template-columns: 5fr 5fr 5fr;
-    gap: 1rem;
+    gap: 5rem;
+  }
+
+  .b8 {
+    width: 100%;
+    height: auto;
   }
 }

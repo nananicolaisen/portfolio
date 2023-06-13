@@ -1,25 +1,90 @@
 /**** regler for mobil-layout *****/
-body {
-  padding: 10%;
+
+/* Stilarter, der kun gælder for mobilenheder */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 10%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div {
+    text-align: center;
+  }
+
+  h1,
+  h4,
+  p {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .nana {
+    position: absolute;
+    top: 60%;
+    left: 31%;
+  }
 }
 
-div {
-  text-align: center;
-}
+/* Stilarter, der kun gælder for desktop */
+@media only screen and (min-width: 769px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 10%;
+  }
 
-h1,
-h4,
-p {
-  text-align: center;
-}
+  div {
+    text-align: center;
+  }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+  h1,
+  h4,
+  p {
+    text-align: center;
+  }
 
-.nana {
-  position: absolute;
-  top: 60%;
-  left: 31%;
+  /******Forside*********/
+
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 1rem;
+  }
+
+  .selvportræt {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+
+  .nana {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  /******Porfolio*********/
+
+  .tema2,
+  .tema3,
+  .tema4,
+  .tema5 {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    gap: 1rem;
+  }
 }

@@ -22,8 +22,16 @@
 
   .nana {
     position: absolute;
-    top: 60%;
-    left: 31%;
+    top: 70%;
+    left: 20%;
+    font-size: 55px;
+    color: #ffd722;
+  }
+
+  .selvportræt {
+    position: absolute;
+    top: 25%;
+    left: 25%;
   }
 }
 
@@ -58,6 +66,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
     gap: 1rem;
+    border: 2px solid #0001b3; /* Stregstørrelse og farve for rammen */
+    border-radius: 10px; /* Afrundede hjørner på rammen */
+    padding: 10px;
   }
 
   .selvportræt {
@@ -66,8 +77,15 @@
   }
 
   .nana {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 3/4;
+    font-size: 60px;
+    color: #ffd722;
+  }
+
+  .velkommen {
+    grid-column: 1/4;
+    grid-row: 1;
   }
 
   /******Portfolio*********/
@@ -84,25 +102,47 @@
 
   .t2,
   .t4 {
-    border: 2px solid #0001b3; /* Stregstørrelse og farve for rammen */
-    border-radius: 10px; /* Afrundede hjørner på rammen */
+    border: 2px solid #0001b3;
+    border-radius: 10px;
     padding: 10px;
+    margin: 20px;
   }
 
   .t3,
   .t5 {
-    border: 2px solid #ffd722; /* Stregstørrelse og farve for rammen */
-    border-radius: 10px; /* Afrundede hjørner på rammen */
+    border: 2px solid #ffd722;
+    border-radius: 10px;
     padding: 10px;
+    margin: 20px;
   }
 
   .b8 {
-    width: 50%;
+    width: 80%;
     right: 70%;
   }
 
   img {
-    width: 100%; /* Sæt bredden til 100% af forælderens bredde */
-    height: auto; /* Bevar billedets proportioner */
+    width: 100%;
+    height: auto;
+  }
+
+  /**********Om mig*******/
+
+  .mig {
+    margin: 20px;
+    border: 2px solid #ffd722;
+  }
+
+  .programmer {
+    margin: 20px;
+    border: 2px solid #0001b3;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .kompetancer {
+    margin: 20px;
+    border: 2px solid #ffd722;
+    border-radius: 10px;
+    padding: 10px;
   }
 }

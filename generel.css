@@ -1,5 +1,5 @@
 body {
-  background-color: #eef1f4c0;
+  background-color: #ffffffc0;
   margin: 0;
 }
 
@@ -17,35 +17,34 @@ h2 {
 }
 p,
 h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: rgb(57, 60, 57);
   margin: auto;
   padding: 20px;
 }
 
 dl {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 dd {
-  font-family: "Inter", sans-serif;
-  padding: 4px;
+  font-family: "Playfair Display", serif;
 }
 
 dt {
-  font-family: "Inter", sans-serif;
-  padding: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 header {
   position: sticky;
   top: 0;
   padding: 1rem 2rem;
-  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+  box-shadow: 0 12px 28px 0 hsla(0, 0%, 0%, 0.302);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background-color: rgb(245, 243, 241);
+  background-color: rgb(217, 142, 66);
 }
 header .logo a {
   font-size: 2rem;
@@ -62,6 +61,7 @@ header nav ul {
   overflow-x: auto;
 }
 a {
+  font-family: "Playfair Display", serif;
   text-decoration: none;
   font-weight: 700;
   color: #070708;

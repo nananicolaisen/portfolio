@@ -66,8 +66,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
     gap: 1rem;
-    border: 2px solid #0001b3; /* Stregstørrelse og farve for rammen */
-    border-radius: 10px; /* Afrundede hjørner på rammen */
+    border: 2px solid #0001b3; /*** Stregstørrelse og farve for rammen ***/
+    border-radius: 10px; /*** runde hjørner på rammen ***/
     padding: 10px;
   }
 
@@ -131,6 +131,7 @@
   .mig {
     margin: 20px;
     border: 2px solid #ffd722;
+    text-align: center;
   }
 
   .programmer {
@@ -138,11 +139,34 @@
     border: 2px solid #0001b3;
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
   }
   .kompetancer {
     margin: 20px;
     border: 2px solid #ffd722;
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
+  }
+
+  .lidt {
+    text-align: center;
+  }
+
+  .mig {
+    display: flex;
+    align-items: center;
+  }
+
+  .mig div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .mig img {
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
   }
 }
